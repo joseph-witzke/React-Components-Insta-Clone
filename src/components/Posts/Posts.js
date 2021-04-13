@@ -12,7 +12,7 @@ const Posts = (props) => {
         return (
           <Post
           key={item.id}
-          post={posts}
+          post={item}
           likePost={likePost}
           />
         )
